@@ -1,0 +1,21 @@
+{
+  "name": "ts__test",
+  "version": "1.0.0",
+  "description": "practice to use ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catastro728/typescriptTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catastro728/typescriptTest/issues"
+  },
+  "homepage": "https://github.com/catastro728/typescriptTest#readme"
+}
