@@ -1,0 +1,36 @@
+"use strict";
+// ★Functiona
+// const sayHi = (name: string, age: number, gender:string): string => {
+//     return `Hello, my name is ${name}, I'm ${age}, and ${gender}`
+// };
+Object.defineProperty(exports, "__esModule", { value: true });
+// ★Object
+// interface Human {
+//     name: string,
+//     age: number,
+//     gender: string
+// }
+// const person = {
+//     name: "Seungyong",
+//     gender: "male",
+//     age: 29
+// };
+// const sayHi = (person : Human): string => {
+//     return `Hello, my name is ${person.name}, I'm ${person.age}, and ${person.gender}`
+// };
+// console.log(sayHi(person));
+// export {};
+//★class
+class Human {
+    constructor(name, age, gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+}
+const person = new Human("Seungyong", 22, "male");
+const sayHi = (person) => {
+    return `Hello, my name is ${person.name}, I'm ${person.age}, and ${person.gender}`;
+};
+console.log(sayHi(person));
+//# sourceMappingURL=index.js.map
